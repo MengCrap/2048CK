@@ -305,17 +305,13 @@ hr {
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
-  .tile .tile-inner {
-    border-radius: 3px;
+  .tile .tile-inner {border-radius: 3px;
     background: #eee4da;
     text-align: center;
     font-weight: bold;
-<<<<<<< HEAD
-    z-index: 0;
-=======
     z-index: 10;
->>>>>>> d05fe493a4fa0312fb21094c835713cccfa8eca4
-    font-size: 0px; }
+    font-size: 0px; 
+    }
   .tile.tile-2 .tile-inner {
     background: url('../tile-sets/guailan/2.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
